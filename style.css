@@ -1,0 +1,148 @@
+.body{
+    margin: 0px;
+
+}
+
+.background{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(resources/background2.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.girl{
+    height: 200px;
+    margin-top: 365px;
+    position: absolute;
+}
+
+.box{
+    width: 230px;
+    height: 230px;
+    /*background-color:rgba(221, 31, 221, 0.941);*/
+    position: absolute;
+    margin-top: 420px;
+    background-image: url(resources/dragon.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.score{
+
+    font-size: 50px;
+    color: rgb(250, 251, 252);
+    background-color: rgb(185, 47, 153);
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.end{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url(resources/background3.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.8;
+    visibility: hidden;
+    
+}
+
+.btn{
+    width: 206px;
+    height: 42px;
+    background-color: transparent;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(23, 225, 228);
+    color: rgb(247, 244, 244);
+    transition-duration:0.5s;
+    cursor: pointer;
+}
+
+.p{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 2px;
+    background: lightcoral;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,.0);
+}
+
+.win{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+    visibility: hidden;
+}
+
+.wi{
+    width: 175px;
+    height: 165px;
+    background-image: url(resources/cup.jpg);
+    
+}
+
+.btn3{
+    width: 206px;
+    height: 42px;
+    background-color: white;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+
+}
+
+.btn3:hover{
+    background-color: rgb(198, 244, 15);
+    width: 250px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    transition-duration: 0.5s;
+}

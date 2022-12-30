@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title> js game </title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body class="body" onload="idleAnimationStart(); createBoxes();" onkeypress="keyCheck(event);">
+
+    <div class="background" id="background">
+
+        <img src="resources/Idle (1).png" class="girl" id="girl"/>
+
+        <div class="score" id="score">0</div>
+
+    </div>
+
+    <div class="end" id="end">
+
+      <div style="color: rgb(243, 6, 89);"> Game Over </div>
+
+      <div style="color: aqua;">Your Score </div>
+
+      <div style="color: rgb(247, 9, 156);" id="endScore">0</div>
+
+      <button class="btn" onclick="reload();">Try Again</button>
+    </div>
+
+    <div class="win" id="win">
+
+      <div class="wi" ></div>
+      <div class="p"> congratulations</div><br/>
+
+      <div class="p"> You Won</div>
+
+      <br/> <br/>
+
+      <button onclick="reload1();" class="btn3">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
